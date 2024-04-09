@@ -116,6 +116,22 @@ $(function(){
     })
 
 
+    // slideDown, slideUp and slideToggle
+    
+    $('h4').click(function(){
+        $('h2').slideUp(450);
+    });
+
+    $('h3').click(function(){
+        $('h2').slideDown(450);
+    })
+
+    $('h5').click(function(){
+        $('h2').slideToggle(450);
+    })
+
+
+    
 
 
 });
